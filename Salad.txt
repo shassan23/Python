@@ -1,0 +1,53 @@
+Sophie zesty salad example:
+oranges = 6
+limes = 1
+lemons = 1
+bananas = 10
+apples = 20
+
+(oranges + limes + lemons) > (apples + bananas) 
+salad must include oranges and limes 
+lemons or apples
+NOT (bananas) and NOT (grapes)
+
+-----------------------------
+My salad: 
+oranges = 12
+limes = 2
+lemons = 1
+bananas = 10
+apples = 20
+grapes = 4
+cantelope = 1
+mangoes = 3
+
+(oranges + limes + grapes + mangoes) > (apples + bananas) 
+salad must include oranges and limes 
+lemons or apples
+NOT (lemons) and NOT (cantelope)
+
+--------------------------------------------
+
+psuedo code (hybrid between human and computer language):
+
+ingredients for tropical fruit salad
+mangoes = 5
+watermelon = 10
+kiwi = 1 
+guava = 2 change to 3
+papaya = 3 change to 3
+no bananas 
+no lemons
+
+fruit salad rules: 
+mangoes.count > kiwi.count = TRUE 
+mangoes AND guava = TRUE 
+guava.count == papaya.count = FALSE so change it to same number on ingredients list
+guava.count == papaya.count 
+watermelon OR kiwi = TRUE 
+watermelon.count > mangoes.count = TRUE 
+
+
+.count is to figure out the number of fruits
+AND OR <> is the operator 
+-------------------------------
